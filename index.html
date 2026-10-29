@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nida Imran | Web Developer Portfolio</title>
+    <meta name="description" content="Nida Imran's portfolio showcasing web development skills and projects.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <a href="#home" class="logo">Nida Imran</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero-content" id="home">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Nida Imran</span></h1>
+            <h2>Aspiring Web Developer</h2>
+            <p class="hero-description">
+                I am learning web development and building websites
+                using HTML, CSS and JavaScript.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="https://wa.me/923313078444"
+                   class="btn btn-outline" target="_blank"
+                   rel="noopener noreferrer">Chat on WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    I am an aspiring web developer learning to create
+                    attractive, user-friendly and responsive websites.
+                    I enjoy practising HTML, CSS and JavaScript and
+                    improving my skills through practical projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="section-label">WHAT I AM LEARNING</p>
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">GitHub</div>
+                <div class="skill-card">Python</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="section-label">MY RECENT WORK</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">PROJECT 01</div>
+                    <h3>Weather App</h3>
+                    <p>
+                        A web application that displays weather
+                        information in a simple and user-friendly layout.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://imrannida510-alt.github.io/weather-app/"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View Weather App ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">PROJECT 02</div>
+                    <h3>Nida's Salon Website</h3>
+                    <p>
+                        A salon website presenting beauty services
+                        and providing a booking form for customers.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Web Design</span>
+                    </div>
+                    <a href="https://imrannida510-alt.github.io/Nida-Salon-Website/"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View Salon Website ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-card">
+                <p>Have a project in mind? Send me a message on WhatsApp.</p>
+
+                <form id="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="Write your message here"
+                              required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Nida Imran | My Portfolio</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
